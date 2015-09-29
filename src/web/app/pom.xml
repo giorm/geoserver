@@ -244,17 +244,29 @@
       <artifactId>xmlunit</artifactId>
       <scope>test</scope>
     </dependency>
-    <dependency>
-    <groupId>com.sistemaits.optima</groupId>
-    <artifactId>fluxomajic3</artifactId>
-    <version>3.0.0-SNAPSHOT</version>
-    <scope>compile</scope>
-  </dependency>
+<!--     <dependency> -->
+<!--     <groupId>org.geotools</groupId> -->
+<!--     <artifactId>fluxo</artifactId> -->
+<!--     <version>3.0-SNAPSHOT</version> -->
+<!--     <scope>compile</scope> -->
+<!--   </dependency> -->
+<dependency>
+  <groupId>org.geotools</groupId>
+  <artifactId>fluxo</artifactId>
+  <version>3.1.0</version>
+  <scope>compile</scope>
+</dependency>
   <dependency>
     <groupId>com.sistemaits.optima</groupId>
     <artifactId>optima-geodao</artifactId>
     <version>0.1.0-SNAPSHOT</version>
     <scope>compile</scope>
+  </dependency>
+  <dependency>
+  	<groupId>com.sistemaits.optima</groupId>
+  	<artifactId>optima-api</artifactId>
+  	<version>15.1.1509</version>
+  	<scope>provided</scope>
   </dependency>
   </dependencies>
   
@@ -465,11 +477,16 @@
     <profile>
       <id>kml</id>
       <dependencies>
-  <dependency>
-    <groupId>com.sistemaits.optima</groupId>
-    <artifactId>fluxomajic3</artifactId>
-    <version>3.0.0-SNAPSHOT</version>
-  </dependency>
+<!--   <dependency> -->
+<!--    <groupId>org.geotools</groupId> -->
+<!--     <artifactId>fluxo</artifactId> -->
+<!--     <version>3.0-SNAPSHOT</version> -->
+<!--   </dependency> -->
+<dependency>
+  <groupId>org.geotools</groupId>
+  <artifactId>fluxo</artifactId>
+  <version>3.1.0</version>
+</dependency>
     <dependency>
     <groupId>com.sistemaits.optima</groupId>
     <artifactId>optima-geodao</artifactId>
