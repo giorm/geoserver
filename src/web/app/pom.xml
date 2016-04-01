@@ -18,6 +18,20 @@
   <version>2.8-SNAPSHOT</version>
   <name>GeoServer Web Application</name>    
   <dependencies>  
+
+<!-- begin Giorgio : add wps sevice dependency -->
+        <dependency>
+          <groupId>org.geoserver.extension</groupId>
+          <artifactId>gs-wps-core</artifactId>
+          <version>${project.version}</version>
+        </dependency>
+        <dependency>
+          <groupId>org.geoserver.extension</groupId>
+          <artifactId>gs-web-wps</artifactId>
+          <version>${project.version}</version>
+        </dependency>
+<!-- end Giorgio : add wps sevice dependency -->
+        
     <dependency>
       <groupId>org.geoserver.web</groupId>
       <artifactId>gs-web-core</artifactId>
